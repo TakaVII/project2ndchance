@@ -1,0 +1,845 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 15508 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Indatech/Documents/project2ndchance/2ndChance
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52867
+Successfully changed project path to: C:/Users/Indatech/Documents/project2ndchance/2ndChance
+C:/Users/Indatech/Documents/project2ndchance/2ndChance
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15228] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2216254398 [EditorId] 2216254398 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-065KU3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15228] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2216254398 [EditorId] 2216254398 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-065KU3M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 184.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Indatech/Documents/project2ndchance/2ndChance/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.029734 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 233.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1853ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (725ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (234ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022728 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Indatech\Documents\project2ndchance\2ndChance\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Indatech\Documents\project2ndchance\2ndChance\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 250.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.106 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3108ms)
+		BeginReloadAssembly (350ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (2445ms)
+			LoadAssemblies (267ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (664ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (159ms)
+			SetupLoadedEditorAssemblies (1243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (250ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (613ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.2 KB). Loaded Objects now: 4187.
+Memory consumption went from 142.7 MB to 142.5 MB.
+Total: 15.433500 ms (FindLiveObjects: 0.919700 ms CreateObjectMapping: 0.921700 ms MarkObjects: 13.174200 ms  DeleteObjects: 0.415600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 980174.379237 seconds.
+  path: Assets/TilePalette/TP1.prefab
+  artifactKey: Guid(cd191fbe33000ab48aabb39a32c710de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilePalette/TP1.prefab using Guid(cd191fbe33000ab48aabb39a32c710de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23270df946e8084f41398ea615081f1') in 0.407838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 181.609473 seconds.
+  path: Assets/Tiles/Grid.prefab
+  artifactKey: Guid(15cfd97e0fb119343b577281f0b4529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Grid.prefab using Guid(15cfd97e0fb119343b577281f0b4529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94eda8ef770a39a33776edc450da04ea') in 0.036919 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033516 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Indatech\Documents\project2ndchance\2ndChance\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Indatech\Documents\project2ndchance\2ndChance\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7252ms)
+		BeginReloadAssembly (884ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (54ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (183ms)
+		EndReloadAssembly (5433ms)
+			LoadAssemblies (704ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1991ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (327ms)
+			SetupLoadedEditorAssemblies (2214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (83ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (436ms)
+				ProcessInitializeOnLoadAttributes (1414ms)
+				ProcessInitializeOnLoadMethodAttributes (217ms)
+				AfterProcessingInitializeOnLoad (55ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 51.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.9 KB). Loaded Objects now: 4200.
+Memory consumption went from 146.7 MB to 146.5 MB.
+Total: 25.025900 ms (FindLiveObjects: 1.535300 ms CreateObjectMapping: 1.375300 ms MarkObjects: 21.129900 ms  DeleteObjects: 0.979900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1179.103447 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/watertile.png
+  artifactKey: Guid(43c1cea86b9dd2f4b8d539ed3bba4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/watertile.png using Guid(43c1cea86b9dd2f4b8d539ed3bba4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4b76b86942da1b48b7e86e1a3b0a59') in 0.083541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.010880 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_01.png
+  artifactKey: Guid(86e5b7eef9e066d49975ad119be6ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_01.png using Guid(86e5b7eef9e066d49975ad119be6ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd7f9d7c5efe2115650087d7fa238d9') in 0.040060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_05.png
+  artifactKey: Guid(524d637cb6a2ff247b7fa5108c21c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_05.png using Guid(524d637cb6a2ff247b7fa5108c21c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7820730ac957e59ac0b7fba5a722c098') in 0.020022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_06.png
+  artifactKey: Guid(d9fadae1774fed74c9a542da5cf7feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_06.png using Guid(d9fadae1774fed74c9a542da5cf7feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942af58491316ac4723bcef421c59de7') in 0.029068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_04.png
+  artifactKey: Guid(6a26a235b65037645b371629736b84d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_04.png using Guid(6a26a235b65037645b371629736b84d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da282c5e955b5657820b4ccd437bc0da') in 0.023280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_03.png
+  artifactKey: Guid(9483805d8c8efa947bef5f9e22e18a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_set/parallax_bg_set_03.png using Guid(9483805d8c8efa947bef5f9e22e18a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817e48eabcfd9f359dcce9f5a177f114') in 0.019107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.626424 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_cave_blueish/parallax_bg_cave_blueish_tiles_01.png
+  artifactKey: Guid(28ecafec3b5472e459cba22d5db6e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_cave_blueish/parallax_bg_cave_blueish_tiles_01.png using Guid(28ecafec3b5472e459cba22d5db6e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db34a02c2a8c7528567872d9b15f4e2') in 0.015363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_cave_blueish/parallax_bg_cave_blueish_tiles_05.png
+  artifactKey: Guid(c1eafd06644296d469af5e989b82fc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_cave_blueish/parallax_bg_cave_blueish_tiles_05.png using Guid(c1eafd06644296d469af5e989b82fc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c79382f7272fec9bcc1645fcb52a78') in 0.012497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_cave_blueish/parallax_bg_cave_blueish_tiles_06.png
+  artifactKey: Guid(3d93735415e46d8458eeed2129c5a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/parallax_bg_cave_blueish/parallax_bg_cave_blueish_tiles_06.png using Guid(3d93735415e46d8458eeed2129c5a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a874f2f0bad38ec90e55297fa3be0aae') in 0.014412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.012742 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_1.png
+  artifactKey: Guid(8cc63031a3c95c443b4c58e14c189e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_1.png using Guid(8cc63031a3c95c443b4c58e14c189e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4590661bd10bd50c60b71156420568e') in 0.015708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_26.png
+  artifactKey: Guid(c9ca14c391c789e44854a725aebe5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_26.png using Guid(c9ca14c391c789e44854a725aebe5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b39fb96f224d53c688ac4e5d4c59fa') in 0.011355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_22.png
+  artifactKey: Guid(b27519150818c27458edc838ff959ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_22.png using Guid(b27519150818c27458edc838ff959ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d540d2ad491be050376b099259e3d5d') in 0.011056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_9.png
+  artifactKey: Guid(20882464e63a7c94e8f1c46b90247959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_9.png using Guid(20882464e63a7c94e8f1c46b90247959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d904dd2158f390c800fb3d8212a3c53') in 0.013363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_25.png
+  artifactKey: Guid(72c5e6701187acc47a42d0d08f350c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_25.png using Guid(72c5e6701187acc47a42d0d08f350c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9971c56ab04643610be0b06af3403b') in 0.016612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_5.png
+  artifactKey: Guid(75ba16b7b06fe024cbb38114a59d4b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_5.png using Guid(75ba16b7b06fe024cbb38114a59d4b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ca96549ee8a3705b230e6403969912') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_17.png
+  artifactKey: Guid(a1e34c21c7c55334a8189b458a1c3036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_17.png using Guid(a1e34c21c7c55334a8189b458a1c3036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4da2ecc381a9932592ad7f73d1f114e') in 0.015270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_16.png
+  artifactKey: Guid(bf6bcd675bbeb9f409925141ac3dfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_16.png using Guid(bf6bcd675bbeb9f409925141ac3dfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c044bd1b65490b2cd713a1ae60faccdb') in 0.016122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_19.png
+  artifactKey: Guid(18641a914947a1c47afe3ef4c37c53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_19.png using Guid(18641a914947a1c47afe3ef4c37c53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf95ed7233ec8fcc37a52282942a542') in 0.014209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_30.png
+  artifactKey: Guid(d44e835daa3207345a835ac59f765f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_30.png using Guid(d44e835daa3207345a835ac59f765f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e61fa400205742c781b045ef7269ed') in 0.013799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_36.png
+  artifactKey: Guid(37b574b05f2cb41498cc826d8d11a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_36.png using Guid(37b574b05f2cb41498cc826d8d11a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6b49b7554619340533d43459e51e91') in 0.013432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_40.png
+  artifactKey: Guid(8912276c491f3b24db5e960857af83fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_40.png using Guid(8912276c491f3b24db5e960857af83fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751e1153647731824b65b31fa67176fc') in 0.012598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_13.png
+  artifactKey: Guid(44b99a180ff22c9499102e0f6cda4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_13.png using Guid(44b99a180ff22c9499102e0f6cda4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89018ff343f8fa3a228ae639b9e6ddd3') in 0.011302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_38.png
+  artifactKey: Guid(3f58256773e731944878a34d0971b166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_38.png using Guid(3f58256773e731944878a34d0971b166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08066cab11c7150b2b71270efec511f1') in 0.012414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_32.png
+  artifactKey: Guid(6f466a90f88ab044e990fc6e8732378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_32.png using Guid(6f466a90f88ab044e990fc6e8732378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a7a902ef43e65cadd1fc629d2f24ea') in 0.013254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_23.png
+  artifactKey: Guid(857b1a1694c85dc45ae6aad3f95892b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_23.png using Guid(857b1a1694c85dc45ae6aad3f95892b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e3e0cf797e7402307e82872b1e935c') in 0.012084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_20.png
+  artifactKey: Guid(3bcc5f54f0f47924caf86571464666b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_20.png using Guid(3bcc5f54f0f47924caf86571464666b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1844e8e89836d05eb7b3d6178a9a5a') in 0.011685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_35.png
+  artifactKey: Guid(3b1c013ef6001cb49aaa23cb42a4b3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_35.png using Guid(3b1c013ef6001cb49aaa23cb42a4b3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957473b0b07f171791c7330150173fae') in 0.012423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_45.png
+  artifactKey: Guid(1634383236bc3b74dbb23a801004b2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_45.png using Guid(1634383236bc3b74dbb23a801004b2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483d7b2a501289cdd04e38b39b9e7413') in 0.013559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_21.png
+  artifactKey: Guid(a7ef80b64a58ef6498791af7a7595053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_21.png using Guid(a7ef80b64a58ef6498791af7a7595053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025473519a61238713c7a19729581e94') in 0.010089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_33.png
+  artifactKey: Guid(8f32732572e1fbe49898ffb9808e2939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_33.png using Guid(8f32732572e1fbe49898ffb9808e2939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c08c4479d009daf39f8e277a5e0e3c') in 0.011357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_12.png
+  artifactKey: Guid(b194a3b7b7ccdae47ba7fdffd8afc732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_12.png using Guid(b194a3b7b7ccdae47ba7fdffd8afc732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4c63595979f3b758d33950b7e420e4') in 0.018210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_14.png
+  artifactKey: Guid(3d92f492295558742b83951da123a6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/objects_misc_animated/object_misc_animated_14.png using Guid(3d92f492295558742b83951da123a6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d46718467d2359f18af23f46ea73e57') in 0.011033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.410932 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_other/bg_cave_greenish_other_01.png
+  artifactKey: Guid(4170f712e8619144d8f19257d0eca8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_other/bg_cave_greenish_other_01.png using Guid(4170f712e8619144d8f19257d0eca8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bbc6a065ba0549fd6d2651e9e77073') in 0.019622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.481289 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_01.png
+  artifactKey: Guid(479b2ec6f1c43b244a1ac3df31456aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_01.png using Guid(479b2ec6f1c43b244a1ac3df31456aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cf9597bd2109cdf1dff0a2358a079a') in 0.016695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_03.png
+  artifactKey: Guid(58f5495460a8ebc418a77d058308a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_03.png using Guid(58f5495460a8ebc418a77d058308a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a2226f3c5179c1ee13d247d7c0b890') in 0.013170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.817357 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_01.png
+  artifactKey: Guid(59aff92e41a98ed4f9bbe15ac9eacbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_01.png using Guid(59aff92e41a98ed4f9bbe15ac9eacbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cef4e30bd934c2d10edc6be5a691bd') in 0.021836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_18.png
+  artifactKey: Guid(70d671933cbeddc42896acbf8f0dab66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_18.png using Guid(70d671933cbeddc42896acbf8f0dab66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226f6d42c1768a83c38bc8b90bbdba91') in 0.011387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_17.png
+  artifactKey: Guid(2565d9350dccd344b94d24dd566f822e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_17.png using Guid(2565d9350dccd344b94d24dd566f822e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a6e38d993e62fb07550f774177a65b') in 0.011818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_07.png
+  artifactKey: Guid(426dfc40db1611d4186f40bfe86f7ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_07.png using Guid(426dfc40db1611d4186f40bfe86f7ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722833c7e5b98daf08a5d987598fa18a') in 0.009732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_03.png
+  artifactKey: Guid(5dbb316121cd27748ae5909c1c1d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_03.png using Guid(5dbb316121cd27748ae5909c1c1d0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ba980e43f074790139147946f60bd2') in 0.011230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_10.png
+  artifactKey: Guid(d32637116ebdcc743b9006adce3a11c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_10.png using Guid(d32637116ebdcc743b9006adce3a11c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccde32171b42e6bb1a4ae8d2e921b3f') in 0.013507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_15.png
+  artifactKey: Guid(babf1278f7b1f424e9073c471fae14cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_15.png using Guid(babf1278f7b1f424e9073c471fae14cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16662c31d6b8698ab47515a24df3994a') in 0.012107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_08.png
+  artifactKey: Guid(297d3d9352314414cbdd5882b7da969d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_08.png using Guid(297d3d9352314414cbdd5882b7da969d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd598ec6b701158f281929f7b7d85d004') in 0.013227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_05.png
+  artifactKey: Guid(8d8abe2d14daf0b43b7239c76ed3e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_05.png using Guid(8d8abe2d14daf0b43b7239c76ed3e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d4f03d243d292b531d423e90fafa66') in 0.012059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_14.png
+  artifactKey: Guid(739d7207e728e1e4da835b55b10cb0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_16x16/bg_cave_greenish_16x16_tile_14.png using Guid(739d7207e728e1e4da835b55b10cb0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931ba2319781b620b9dfacecdd2a3412') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.028542 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_01.png
+  artifactKey: Guid(0a63b1889307ad043936dddac3b8a783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_01.png using Guid(0a63b1889307ad043936dddac3b8a783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fc10a2d202eefdbfc3630273178e53') in 0.015920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_15.png
+  artifactKey: Guid(27843cd187f0ded449f912b1414e47c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_15.png using Guid(27843cd187f0ded449f912b1414e47c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbd52bec191a91aa31a02afa76ad454') in 0.016457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_13.png
+  artifactKey: Guid(55f5eb4841fac064c8ce59722e49204e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_13.png using Guid(55f5eb4841fac064c8ce59722e49204e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db46cccf4869bd5e7d6694bc435401e') in 0.016291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_11.png
+  artifactKey: Guid(9e3ed099d9d4f1c43a1759e64587c5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_11.png using Guid(9e3ed099d9d4f1c43a1759e64587c5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4066a0e5d04dff552ca84cea3a12bb04') in 0.013656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_12.png
+  artifactKey: Guid(3f1d6e037f5407347b8866c7bf691b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_12.png using Guid(3f1d6e037f5407347b8866c7bf691b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4b0f2c3ab2ce8f8e21954f38f99c87') in 0.014816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_18.png
+  artifactKey: Guid(6f3c6b33b14924948bac3c71f0b7382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_18.png using Guid(6f3c6b33b14924948bac3c71f0b7382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbba84693396b3ad2028f23642c46220') in 0.011131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_17.png
+  artifactKey: Guid(230eb9d18183b7047aa2a31a670896b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_17.png using Guid(230eb9d18183b7047aa2a31a670896b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dcfb3cc43b9216534b2e089a88d908') in 0.012830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_16.png
+  artifactKey: Guid(2fd226faf6eec8f41addc7cfb3953648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_16.png using Guid(2fd226faf6eec8f41addc7cfb3953648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc56b3862017a17cc540bc4d43babce') in 0.014441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_08.png
+  artifactKey: Guid(5dc2519b7e4f8cd488e61ba792f1d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_08.png using Guid(5dc2519b7e4f8cd488e61ba792f1d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802837eb0890d3f1867439ce8d394995') in 0.017039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_04.png
+  artifactKey: Guid(1de9c42ea6bf6d5488ecf57a35faff8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_04.png using Guid(1de9c42ea6bf6d5488ecf57a35faff8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552d95913b70ef6a267bcb30f241d937') in 0.015121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.448977 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16.png
+  artifactKey: Guid(1291332cf12f072409f17b4e2f19c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16.png using Guid(1291332cf12f072409f17b4e2f19c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf38dc989ff8bdd53737dc813eff90a6') in 0.097799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x32.png
+  artifactKey: Guid(45d1fa6ee4f9d934883e0e17e7ece524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x32.png using Guid(45d1fa6ee4f9d934883e0e17e7ece524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dfdeaba1143c1ac9698644c87398b3') in 0.103585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-dark.png
+  artifactKey: Guid(3a0e0e9389f595442bff65be2c3c7c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-dark.png using Guid(3a0e0e9389f595442bff65be2c3c7c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbb4292a8f63925451d1e60ceb39b42') in 0.229681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_32x32.png
+  artifactKey: Guid(325eba7eb0eae3d49a8dd42758ec7336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_32x32.png using Guid(325eba7eb0eae3d49a8dd42758ec7336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b41248caa826c7c26453fa9528762ba') in 0.032762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x32.png
+  artifactKey: Guid(a942e742796c2684d891a7181f310bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x32.png using Guid(a942e742796c2684d891a7181f310bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31438ccce12655ccc2141748e1afeb6c') in 0.031548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-darkbrown.png
+  artifactKey: Guid(97634e655df768142a2607b4827a0a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-darkbrown.png using Guid(97634e655df768142a2607b4827a0a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb780bae5ac83358cc68e0a331c1e968') in 0.305742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/watertile.png
+  artifactKey: Guid(e1e39dc6527a022478e6ed34580dc267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/watertile.png using Guid(e1e39dc6527a022478e6ed34580dc267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126a0620d97948d6eb8f2d1662517263') in 0.010231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_other.png
+  artifactKey: Guid(9b722ddbaa4b73440a0f9c11af2cbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_other.png using Guid(9b722ddbaa4b73440a0f9c11af2cbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c572abef6378c3df249d68a96b09009a') in 0.025757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects_fountain_animated.png
+  artifactKey: Guid(ff5f7226ed4a9ad4c9253b92fad091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects_fountain_animated.png using Guid(ff5f7226ed4a9ad4c9253b92fad091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a40b101f5df9f9699e0089e01a3d58') in 0.048210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects_bigchest_animated.png
+  artifactKey: Guid(19f60735a26b44949acfda90d4d794df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects_bigchest_animated.png using Guid(19f60735a26b44949acfda90d4d794df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76240f7fe1ed01f2efddc40d36928666') in 0.124038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_other.png
+  artifactKey: Guid(6d45fe9eed71bde49be5d6f24c33288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_other.png using Guid(6d45fe9eed71bde49be5d6f24c33288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a0a498c24f851a114279da40e954a4') in 0.020495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_cave_blueish.png
+  artifactKey: Guid(5446fb203ea05cf439a2a482dbe9bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_cave_blueish.png using Guid(5446fb203ea05cf439a2a482dbe9bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f10960561e9856017a0e81589aad6') in 0.035388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_set.png
+  artifactKey: Guid(59b19808d0cb84645905e4922a232439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_set.png using Guid(59b19808d0cb84645905e4922a232439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d55ed5153fe7db13508ac46c82fa946') in 0.078909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-white.png
+  artifactKey: Guid(ae9601efa341c8e46881ed773ca69bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-white.png using Guid(ae9601efa341c8e46881ed773ca69bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f84c14e9eaf1dcb61ad3ce1f333663') in 0.307684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects_misc.png
+  artifactKey: Guid(a960d45a01b175649839aa6c4d61341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects_misc.png using Guid(a960d45a01b175649839aa6c4d61341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eff3bb4055deaf5453d9887b30ddcbe') in 0.072890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x16.png
+  artifactKey: Guid(b2d15ef97656d514ab499c764e5a4fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x16.png using Guid(b2d15ef97656d514ab499c764e5a4fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b8aefe2f02807715afb9be1b9231c8') in 0.070009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.412541 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16_3.asset
+  artifactKey: Guid(e1d65448e12ec3943b7be1f50e63af7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16_3.asset using Guid(e1d65448e12ec3943b7be1f50e63af7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91249ab9f2e61d2fd066e772eb84c5b1') in 0.017188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 598.824968 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef
+  artifactKey: Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef using Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297ac59c38a5002cef1ff55aa77f07ff') in 0.019026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.548168 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16_tile_01.asset
+  artifactKey: Guid(56c9065be4969f844beefaa10fbe5c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16_tile_01.asset using Guid(56c9065be4969f844beefaa10fbe5c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8106196695760ca351d675ea2ed396fe') in 0.020112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5383.105685 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_0.asset
+  artifactKey: Guid(a998721f6599215428466401ec9fbf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_0.asset using Guid(a998721f6599215428466401ec9fbf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb46f5e4d393557c95d2443ff7b22e61') in 0.115760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_19.asset
+  artifactKey: Guid(3909c99749589614b81af239e0b69676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_19.asset using Guid(3909c99749589614b81af239e0b69676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c248a3e4de108f45ad3dc1fc3e111a') in 0.048841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_11.asset
+  artifactKey: Guid(bc2e0e3a73bad2146996a6d8454004f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_11.asset using Guid(bc2e0e3a73bad2146996a6d8454004f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1bc5bc8083a379e5a56297b45c835f') in 0.009926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_13.asset
+  artifactKey: Guid(877e5d95bf841c84589233c0dbef97f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_13.asset using Guid(877e5d95bf841c84589233c0dbef97f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e104530d45bbfdd1906704144c2731') in 0.010339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_4.asset
+  artifactKey: Guid(2160fed986cb8ed4d80565d4ec119f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_4.asset using Guid(2160fed986cb8ed4d80565d4ec119f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0367908862a112348c9f99724336f16e') in 0.008669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_20.asset
+  artifactKey: Guid(051c9dd45ede4e340bcc7cd118b2c807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_20.asset using Guid(051c9dd45ede4e340bcc7cd118b2c807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa65e3760b802ee57e7c1f9cf7a43d2') in 0.008563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_5.asset
+  artifactKey: Guid(ff716919fa996a442b465f9902891515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_5.asset using Guid(ff716919fa996a442b465f9902891515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff39dc643b37b7e5f59d679c6408d0ed') in 0.007941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_15.asset
+  artifactKey: Guid(bfe9d2b557c17314a95ba234455de967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_15.asset using Guid(bfe9d2b557c17314a95ba234455de967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a27d2a5d3f064ec1961520c924260e9') in 0.008212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_3.asset
+  artifactKey: Guid(dc1677e69cd11c74c985e15e787abcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_3.asset using Guid(dc1677e69cd11c74c985e15e787abcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e751b5ed7d20cfc18beb6c0bd46bff') in 0.008051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_16.asset
+  artifactKey: Guid(6da87ca9c781e5e419411db68d121fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_16.asset using Guid(6da87ca9c781e5e419411db68d121fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fca4248277d96baa29a1468a845c91') in 0.015885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_21.asset
+  artifactKey: Guid(f4ba7912f5b0a3e42a98f52fd2345bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_21.asset using Guid(f4ba7912f5b0a3e42a98f52fd2345bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaacf637237766a5f6eb57a1b990adb') in 0.007510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_6.asset
+  artifactKey: Guid(b324d4304cae97441ad0fd89d996c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_6.asset using Guid(b324d4304cae97441ad0fd89d996c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7f1ef3219a37c0e6874dee038b508b') in 0.006065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.493152 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_22.asset
+  artifactKey: Guid(632044ac5a065604c8fba80216b3c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_22.asset using Guid(632044ac5a065604c8fba80216b3c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85959ca9c1881e55cd20c354ca426f33') in 0.028839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_26.asset
+  artifactKey: Guid(0d9a90a46bfc03e478c224be31863579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_26.asset using Guid(0d9a90a46bfc03e478c224be31863579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8756049a234b37e83f1e9452add0f4') in 0.025775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_28.asset
+  artifactKey: Guid(7285bab962e1c8b4d92c968aad91df63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_28.asset using Guid(7285bab962e1c8b4d92c968aad91df63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fa27fdcfe77dbf7379b8f751e4af95') in 0.020769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_32.asset
+  artifactKey: Guid(d4ef1d29df82c584ca4aa4533f27d7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_32.asset using Guid(d4ef1d29df82c584ca4aa4533f27d7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c405867ad56202643f251eeae90fdb') in 0.021882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_43.asset
+  artifactKey: Guid(b6c5ef3d0555fe041a5620804adeef7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_43.asset using Guid(b6c5ef3d0555fe041a5620804adeef7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e91ac8b328df6ac5d354183a61dff8d') in 0.019572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_36.asset
+  artifactKey: Guid(b8f88c0165f1b874d86a8ec3ab4e1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_36.asset using Guid(b8f88c0165f1b874d86a8ec3ab4e1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3b6f1bfb2543819817bf595f272e8d') in 0.019831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_30.asset
+  artifactKey: Guid(45a9edcb4a5f16442860bd4a8d3652e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_30.asset using Guid(45a9edcb4a5f16442860bd4a8d3652e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f73d9c89d72bbc604ece07d7e7d136') in 0.022152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_37.asset
+  artifactKey: Guid(054e0d0d2113d514b9b8bb2159e0e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_37.asset using Guid(054e0d0d2113d514b9b8bb2159e0e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd9947949dd3184a7a79f78c15254d6') in 0.022049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_29.asset
+  artifactKey: Guid(c265b76148f20604da0ff4345e966811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_29.asset using Guid(c265b76148f20604da0ff4345e966811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab310171285a3d24b86876db02c94217') in 0.022707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_34.asset
+  artifactKey: Guid(e2c3a90a6a9b71a44baa512e98af043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_34.asset using Guid(e2c3a90a6a9b71a44baa512e98af043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb8776f9dab451eecb17ad556f6ac6f') in 0.023762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_41.asset
+  artifactKey: Guid(670673894d9c698408424e0fea1f90ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_41.asset using Guid(670673894d9c698408424e0fea1f90ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab5c0e3ae82d2ad5dc6ea3510defb9a') in 0.024543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016180 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_44.asset
+  artifactKey: Guid(49dc91711c89b1148be5d355c252d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_44.asset using Guid(49dc91711c89b1148be5d355c252d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e636066bffeed3ad7648a7d94b5c63') in 0.027738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_47.asset
+  artifactKey: Guid(3539b67bf7836b949bc541309d7f04e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_47.asset using Guid(3539b67bf7836b949bc541309d7f04e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3288de3ba23b760af2c6c9f47b3c0876') in 0.024721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_50.asset
+  artifactKey: Guid(48ff3a3e0e08d454fb556bd9af89bdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cave Platformer Tileset/Enviroment sprite sheets/objects-animated-1_50.asset using Guid(48ff3a3e0e08d454fb556bd9af89bdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e964ac95d2d264be31f0535a176e3b') in 0.024879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 213.639043 seconds.
+  path: Assets/Tiles/bg_cave_blueish_16x16_0.asset
+  artifactKey: Guid(f863eeb9473d92e45a04df9574dd9eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/bg_cave_blueish_16x16_0.asset using Guid(f863eeb9473d92e45a04df9574dd9eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdd67dd1a0482086ea1e3c1f7de9c73') in 0.021498 seconds 
